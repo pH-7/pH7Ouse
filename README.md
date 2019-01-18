@@ -1,5 +1,7 @@
 # pH7Ouse
 
+**An Airbnb Like** app.
+
 The application uses [devise](https://github.com/plataformatec/devise) to manage the user authentication in the app.
 
 ## Requirements
