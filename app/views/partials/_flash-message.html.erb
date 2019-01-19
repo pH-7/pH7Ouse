@@ -1,0 +1,7 @@
+<% unless flash.empty? %>
+  <script>
+    <% flash.each do |key, value| %>
+      <% type = key.to_s.gsub('alert', 'error').gsub('notice', 'success') %>
+    <% end %>
+  </script>
+<% end %>
