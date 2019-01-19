@@ -17,6 +17,7 @@
         <% else %>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+            <%= image_tag avatar_url(current_user), class: "small-avatar img-circle" %> -
             <i><%= current_user.fullname =%></i> <span class="caret"></span>
           </a>
           <ul class="dropdown-menu">
