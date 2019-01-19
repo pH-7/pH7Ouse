@@ -17,5 +17,22 @@
 !/log/.keep
 !/tmp/.keep
 
+## OS tempfiles ##
+
+# Linux
+*~
+*.swp
+# KDE
+.directory
+
+# Windows
+ehthumbs.db
+Icon?
+Thumbs.db
+
+# Mac OS
+.DS_Store*
+._*
+
 # Ignore Byebug command history file.
 .byebug_history
