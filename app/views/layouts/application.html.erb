@@ -10,11 +10,7 @@
 
   <body>
     <%= render 'partials/navbar' %>
-
-    <div class="text-center">
-      <p class="notice"><%= notice %></p>
-      <p class="alert"><%= alert %></p>
-    </div>
+    <%= render 'partials/flash-message' %>
 
     <div class="container">
       <%= yield %>
